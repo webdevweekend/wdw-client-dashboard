@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WDW Client Dashboard
  * Description: Client dashboard messaging and support tools.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Elizabeth Frederickson
  */
 
@@ -37,6 +37,10 @@ function ef_dashboard_widget_content() {
     <p>
     Please contact:<br>
     <a href="mailto:liz@webdevweekend.com">liz@webdevweekend.com</a>
+    </p>
+
+    <p>
+    Please submit a ticket <a href="https://webdevweekend.com/support/" target="_target">here</a>.
     </p>
 
     <hr>
