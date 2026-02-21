@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WDW Client Dashboard
  * Description: Client dashboard messaging and support tools.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Elizabeth Frederickson
  */
 
