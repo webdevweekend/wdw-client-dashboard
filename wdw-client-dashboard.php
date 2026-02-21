@@ -40,7 +40,7 @@ function ef_dashboard_widget_content() {
     </p>
 
     <p>
-    Please submit a ticket <a href="https://webdevweekend.com/support/" target="_target">here</a>.
+    Or submit a ticket <a href="https://webdevweekend.com/support/" target="_target">here</a>.
     </p>
 
     <hr>
