@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Client Dashboard Message
- * Description: Displays a dashboard notice with website management information.
+ * Plugin Name: WDW Client Dashboard
+ * Description: Client dashboard messaging and support tools.
+ * Version: 1.0.1
  * Author: Elizabeth Frederickson
- * Version: 1.0
  */
 
 add_action('wp_dashboard_setup', 'ef_add_dashboard_widget');
@@ -47,3 +47,17 @@ function ef_dashboard_widget_content() {
     </p>
     <?php
 }
+
+// Include the Plugin Update Checker library
+require 'plugin-update-checker/plugin-update-checker.php';
+
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$updateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/webdevweekend/wdw-client-dashboard/', // URL of your GitHub repo
+    __FILE__, // Full path to this plugin file
+    'wdw-client-dashboard' // Plugin slug, usually same as folder name
+);
+
+// Optional: use main branch for updates
+$updateChecker->setBranch('main');
